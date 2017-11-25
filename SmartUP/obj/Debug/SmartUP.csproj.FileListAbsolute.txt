@@ -1,0 +1,300 @@
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\csc.exe
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\csc.exe.config
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\csc.rsp
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\csi.exe
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\csi.exe.config
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\csi.rsp
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.AppContext.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Console.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.IO.Pipes.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Security.Claims.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Threading.Thread.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\vbc.exe
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\vbc.exe.config
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\vbc.rsp
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\SmartUP.dll.config
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\SmartUP.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\SmartUP.pdb
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\System.Web.Helpers.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\System.Web.Mvc.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\System.Web.Razor.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\System.Web.Webpages.Deployment.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\System.Web.Webpages.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\System.Web.Webpages.Razor.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\System.Web.Razor.xml
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\System.Web.Webpages.xml
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\System.Web.Webpages.Deployment.xml
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\System.Web.Webpages.Razor.xml
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\System.Web.Helpers.xml
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\System.Web.Mvc.xml
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\obj\Debug\SmartUP.csprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\SmartUP\SmartUP\obj\Debug\SmartUP.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SmartUP\SmartUP\obj\Debug\SmartUP.dll
+C:\Users\User\source\repos\SmartUP\SmartUP\obj\Debug\SmartUP.pdb
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\csc.exe
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\csc.exe.config
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\csc.rsp
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\csi.exe
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\csi.exe.config
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\csi.rsp
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.AppContext.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Console.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.IO.Compression.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Security.Claims.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.ValueTuple.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\vbc.exe
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\vbc.exe.config
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\vbc.rsp
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\VBCSCompiler.exe
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\SmartUP.dll.config
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\SmartUP.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\SmartUP.pdb
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\System.Web.Helpers.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\System.Web.Mvc.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\System.Web.Razor.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\System.Web.Webpages.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\System.Web.Webpages.Razor.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\System.Web.Razor.xml
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\System.Web.Webpages.xml
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\System.Web.Webpages.Razor.xml
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\System.Web.Helpers.xml
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\System.Web.Mvc.xml
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\obj\Debug\SmartUP.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\obj\Debug\SmartUP.dll
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\integriert\SmartUP\obj\Debug\SmartUP.pdb
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\csc.exe
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\csc.exe.config
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\csc.rsp
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\csi.exe
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\csi.exe.config
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\csi.rsp
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.AppContext.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Console.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.IO.Compression.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Security.Claims.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.ValueTuple.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\vbc.exe
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\vbc.exe.config
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\vbc.rsp
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\VBCSCompiler.exe
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\SmartUP.dll.config
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\SmartUP.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\SmartUP.pdb
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\System.Web.Helpers.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\System.Web.Mvc.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\System.Web.Razor.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\System.Web.Webpages.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\System.Web.Webpages.Razor.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\System.Web.Razor.xml
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\System.Web.Webpages.xml
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\System.Web.Webpages.Razor.xml
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\System.Web.Helpers.xml
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\System.Web.Mvc.xml
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\obj\Debug\SmartUP.csprojResolveAssemblyReference.cache
+C:\Users\Matheus\Documents\integriert\SmartUP\obj\Debug\SmartUP.dll
+C:\Users\Matheus\Documents\integriert\SmartUP\obj\Debug\SmartUP.pdb
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\csc.exe
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\csc.exe.config
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\csc.rsp
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\csi.exe
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\csi.exe.config
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\csi.rsp
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.AppContext.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Console.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.IO.Compression.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Security.Claims.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Threading.Thread.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.ValueTuple.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\vbc.exe
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\vbc.exe.config
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\vbc.rsp
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\VBCSCompiler.exe
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\SmartUP.dll.config
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\SmartUP.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\SmartUP.pdb
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\System.Web.Helpers.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\System.Web.Mvc.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\System.Web.Razor.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\System.Web.Webpages.Deployment.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\System.Web.Webpages.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\System.Web.Webpages.Razor.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\System.Web.Razor.xml
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\System.Web.Webpages.xml
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\System.Web.Webpages.Deployment.xml
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\System.Web.Webpages.Razor.xml
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\System.Web.Helpers.xml
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\System.Web.Mvc.xml
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\obj\Debug\SmartUP.csprojResolveAssemblyReference.cache
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\obj\Debug\SmartUP.dll
+C:\Users\bruna\Documents\GitHub\integriert\SmartUP\obj\Debug\SmartUP.pdb
