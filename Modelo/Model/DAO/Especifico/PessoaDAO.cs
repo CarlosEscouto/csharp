@@ -31,8 +31,12 @@ namespace Model.DAO.Especifico
             try
             {
                 query = "INSERT INTO PESSOA (NOME, CPF, RG, DT_NASC, STS_ATIVO) VALUES ('"
-                        + pessoa.nome + "', '" + pessoa.cpf + "', '" + pessoa.rg + "', '" 
-                        + (pessoa.data_nasc).ToShortDateString() + "', 1)";
+                        + pessoa.nome + "', '" 
+                        + pessoa.cpf + "', '" 
+                        + pessoa.rg + "', '" 
+                        + (pessoa.data_nasc).ToShortDateString() 
+                        + "', 1);";
+                banco.MetodoNaoQuery(query);
                 return true;
             }
 
@@ -49,8 +53,9 @@ namespace Model.DAO.Especifico
             List<Pessoa> lstPessoa = new List<Pessoa>();
             try
             {
-                query = "SELECT NOME, CPF, RG, DT_NASC FROM PESSOA WHERE STS_ATIVO = 1 AND RG LIKE '%" + rg + "%'";
-                lstPessoa.Add(setarObjeto(banco.MetodoSelect(query)));
+                query = "SELECT * FROM PESSOA WHERE STS_ATIVO = 1 " +
+                        "AND RG LIKE '%" + rg + "%';";
+                lstPessoa = setarObjeto(banco.MetodoSelect(query));
             }
 
             catch (Exception ex)
@@ -67,8 +72,8 @@ namespace Model.DAO.Especifico
             List<Pessoa> lstPessoa = new List<Pessoa>();
             try
             {
-                query = "SELECT NOME, CPF, RG, DT_NASC FROM PESSOA WHERE STS_ATIVO = 1 AND NOME LIKE '%" + nome + "%'";
-                lstPessoa.Add(setarObjeto(banco.MetodoSelect(query)));
+                query = "SELECT * FROM PESSOA WHERE STS_ATIVO = 1 AND NOME LIKE '%" + nome + "%';";
+                lstPessoa = setarObjeto(banco.MetodoSelect(query));
             }
                 
             catch (Exception ex)
@@ -85,8 +90,8 @@ namespace Model.DAO.Especifico
             List<Pessoa> lstPessoa = new List<Pessoa>();
             try
             {
-                query = "SELECT NOME, CPF, RG, DT_NASC FROM PESSOA WHERE STS_ATIVO = 1";
-                lstPessoa.Add(setarObjeto(banco.MetodoSelect(query)));
+                query = "SELECT * FROM PESSOA WHERE STS_ATIVO = 1";
+                lstPessoa = setarObjeto(banco.MetodoSelect(query));
             }
 
             catch (Exception ex)
@@ -97,12 +102,33 @@ namespace Model.DAO.Especifico
             return lstPessoa;
         }
 
-		public bool remove(int id)
-		{
+        public bool altera(Pessoa pessoa)
+        {
             query = null;
             try
             {
-                query = "UPDATE PESSOA SET STS_ATIVO = 0 WHERE ID_PESSOA = " + id.ToString();
+                query = "UPDATE PESSOA SET NOME = '" + pessoa.nome + 
+                        "', CPF = '" + pessoa.cpf + 
+                        "', RG = '" + pessoa.rg +
+                        "', DT_NASC = '" + pessoa.data_nasc.ToShortDateString() + 
+                        "' WHERE ID_PESSOA = " + pessoa.id_pessoa.ToString() + ";";
+                banco.MetodoNaoQuery(query);
+                return true;
+            }
+
+            catch (Exception ex)
+            {
+                return false;
+                throw ex;
+            }
+        }
+
+        public bool remove(int id)
+        {
+            query = null;
+            try
+            {
+                query = "UPDATE PESSOA SET STS_ATIVO = 0 WHERE ID_PESSOA = " + id.ToString() + ";";
                 banco.MetodoNaoQuery(query);
                 return true;
             }
@@ -118,33 +144,25 @@ namespace Model.DAO.Especifico
 
         #region Métodos
 
-        public Pessoa setarObjeto(SqlDataReader dr)
+        public List<Pessoa> setarObjeto(SqlDataReader dr)
         {
-            Pessoa obj = new Pessoa();
+            List<Pessoa> lstPessoa = new List<Pessoa>();
 
             try
             {
-                for (int idx = 0; idx < dr.FieldCount; idx++)
+                if (dr.HasRows)
                 {
-                    dr.GetName(idx).ToString();
-
-                    switch (dr.GetName(idx).ToUpper())
+                    while (dr.Read())
                     {
-                        case "ID_PESSOA":
-                            obj.id_pessoa = Convert.ToInt32(dr[idx]);
-                            break;
-                        case "NOME":
-                            obj.nome = Convert.ToString(dr[idx]);
-                            break;
-                        case "CPF":
-                            obj.cpf = Convert.ToString(dr[idx]);
-                            break;
-                        case "RG":
-                            obj.rg = Convert.ToString(dr[idx]);
-                            break;
-                        case "DT_NASC":
-                            obj.data_nasc = Convert.ToDateTime(dr[idx]);
-                            break;
+                        Pessoa obj = new Pessoa();
+                        obj.id_pessoa = Convert.ToInt32(dr["ID_PESSOA"].ToString());
+                        obj.nome = Convert.ToString(dr["NOME"].ToString());
+                        obj.cpf = Convert.ToString(dr["CPF"].ToString());
+                        obj.rg = Convert.ToString(dr["RG"].ToString());
+                        obj.data_nasc = Convert.ToDateTime(dr["DT_NASC"].ToString());
+                        obj.ativo = Convert.ToBoolean(dr["STS_ATIVO"].ToString());
+                        
+                        lstPessoa.Add(obj);
                     }
                 }
             }
@@ -155,7 +173,7 @@ namespace Model.DAO.Especifico
                 throw ex;
             }
 
-            return obj;
+            return lstPessoa;
         }
 
         #endregion

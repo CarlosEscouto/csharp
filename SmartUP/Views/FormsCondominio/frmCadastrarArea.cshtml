@@ -1,4 +1,4 @@
-<section class="content" style="top:80px; position: relative;">
+<section class="content" style="top:50px; position: relative;">
 	<div class="row">
 		<div class="col s12 compensa">
 			<div class="col s12" style="padding: 0 20px;">
@@ -26,32 +26,36 @@
 			<div class="row">
 				<div class="col s12 " style="padding: 22px;">
 					<div class="cadastroForm">
-					<form class="">
+					<form action="@Url.Action("CadastraArea")" method="post">
 						<h5 style="">Cadastro de Area</h5>
 						<div class="row">
 							<div class="input-field col s12 m3" >
-								<input id="icon_prefix" type="text" class="validate">
-								<label for="icon_prefix">Nome</label>
+								<input id="area.nome" name="area.nome" type="text" class="validate">
+								<label for="nome">Nome</label>
 							</div>
 							<div class="input-field col s12 m3" >
-								<input id="icon_prefix" type="text" class="validate">
-								<label for="icon_prefix">Descrição</label>
+								<input id="area.descricao" name="area.descricao" type="text" class="validate">
+								<label for="descricao">Descrição</label>
 							</div>
 							<div class="input-field col s12 m3" >
-								<input id="icon_prefix" type="number" class="validate">
-								<label for="icon_prefix">Capacidade</label>
+								<input id="area.capacMax" name="area.capacMax" type="number" class="validate">
+								<label for="capacMax">Capacidade</label>
 							</div>
-							<div class="input-field col s12 m3" >
+                            <div class="input-field col s12 m3">
+                                <input id="area.seAluga" name="area.seAluga" type="text" class="validate">
+                                <label for="seAluga">sealuga</label>
+                            </div>
+							@*<div class="input-field col s12 m3" >
 								<label for="sim">Alugevel</label>
-								<input id="sim" name="alugavel" type="radio" class="validate">
+								<input id="sim" name="area.seAluga" selected value="1" type="radio" class="validate">
 								<label for="sim">Sim</label>
-								<input id="nao" name="alugavel" type="radio" class="validate">
+								<input id="nao" name="area.seAluga" value="0" type="radio" class="validate">
 								<label for="nao">Não</label>
-							</div>
+							</div>*@
 						</div>
 						<div class="row">
 							<div class="col s3">
-								<a class="btn botao">Salvar</a>
+                                <input type="submit" value="Salvar" />
 							</div>
 						</div>						
 					</form>

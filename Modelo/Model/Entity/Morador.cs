@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Model.Entity
 {
-	public class Morador 
+	public class Morador : Pessoa
 	{
 
         public Morador()
@@ -15,6 +15,9 @@ namespace Model.Entity
 		{
 			
 		}
+        public int id_morador { get; set; }
+        //public bool ativo { get; set; }
+        public Unidade unidade { get; set; }
 	}
 
 }

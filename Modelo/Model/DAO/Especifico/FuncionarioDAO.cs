@@ -3,6 +3,7 @@ using System;
 using Model.DAO.Generico;
 using System.Data;
 using System.Data.SqlClient;
+using System.Collections.Generic;
 
 namespace Model.DAO.Especifico
 {
@@ -17,7 +18,7 @@ namespace Model.DAO.Especifico
         #endregion
 
         #region Objetos
-
+        List<Funcionario> lstFuncionario = new List<Funcionario>();
         dbBancos banco = new dbBancos();
         string query = null;
 
@@ -25,13 +26,18 @@ namespace Model.DAO.Especifico
 
         #region CRUD
 
-		public bool cadastra(Funcionario funcionario)
+        #region Funcionário
+
+        public bool cadastra(Funcionario funcionario)
 		{
             query = null;
             try
             {
                 query = "INSERT INTO FUNCIONARIO (ID_CARGO, ID_PESSOA, STS_ATIVO) VALUES ("
-                        + (funcionario.cargo).ToString() + ", " + (funcionario.id_pessoa).ToString() + ", 1)";
+                        + (funcionario.cargo).ToString() + ", " 
+                        + (funcionario.id_pessoa).ToString() 
+                        + ", 1)";
+                banco.MetodoNaoQuery(query);
                 return true;
             }
 
@@ -42,42 +48,200 @@ namespace Model.DAO.Especifico
             }
         }
 
-		public bool remove()
-		{
-            return true;
+        public List<Funcionario> buscaPorNome(string nome)
+        {
+            query = null;
+            List<Funcionario> lstFuncionarios = new List<Funcionario>();
+            try
+            {
+                query = "SELECT P.NOME, C.DESCRICAO FROM PESSOA AS P " +
+                        "INNER JOIN FUNCIONARIO AS F ON P.ID_PESSOA = F.ID_PESSOA " +
+                        "INNER JOIN CARGO ON F.ID_CARGO = C.ID_CARGO " +
+                        "WHERE P.NOME LIKE '%" + nome + "%' AND F.STS_ATIVO = 1;";
+                lstFuncionarios = setarObjeto(banco.MetodoSelect(query));
+            }
+
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return lstFuncionarios;
         }
+
+        public List<Funcionario> buscaPorCargo(string cargo)
+        {
+            query = null;
+            List<Funcionario> lstFuncionarios = new List<Funcionario>();
+            try
+            {
+                query = "SELECT P.NOME, C.DESCRICAO FROM PESSOA AS P " +
+                        "INNER JOIN FUNCIONARIO AS F ON P.ID_PESSOA = F.ID_PESSOA " +
+                        "INNER JOIN CARGO ON F.ID_CARGO = C.ID_CARGO " +
+                        "WHERE C.DESCRICAO LIKE '%" + cargo + "%' AND F.STS_ATIVO = 1;";
+                lstFuncionarios = setarObjeto(banco.MetodoSelect(query));
+            }
+
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return lstFuncionarios;
+        }
+
+        public List<Funcionario> busca()
+        {
+            query = null;
+            List<Funcionario> lstFuncionarios = new List<Funcionario>();
+            try
+            {
+                query = "SELECT P.NOME FROM PESSOA AS P " +
+                        "INNER JOIN FUNCIONARIO AS F ON P.ID_PESSOA = F.ID_FUNCIONARIO " +
+                        "INNER JOIN CARGO ON F.ID_CARGO = C.ID_CARGO " +
+                        "WHERE F.STS_ATIVO = 1;";
+                lstFuncionarios = setarObjeto(banco.MetodoSelect(query));
+            }
+
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return lstFuncionarios;
+        }
+
+        public bool altera(Funcionario funcionario)
+        {
+            query = null;
+            try
+            {
+                query = "UPDATE FUNCIONARIO SET ID_CARGO = " + funcionario.cargo.id_cargo.ToString() + ";";
+                banco.MetodoNaoQuery(query);
+                return true;
+            }
+
+            catch (Exception ex)
+            {
+                return false;
+                throw ex;
+            }
+        }
+
+        public bool remove(int id)
+		{
+            query = null;
+            try
+            {
+                query = "UPDATE FUNCIONARIO SET STS_ATIVO = 0 WHERE ID_FUNCIONARIO = " + id.ToString() + ";";
+                banco.MetodoNaoQuery(query);
+                return true;
+            }
+
+            catch (Exception ex)
+            {
+                return false;
+                throw ex;
+            }
+        }
+
+        #endregion
+
+        #region Cargo
+
+        public bool cadastraCargo(Cargo cargo)
+        {
+            query = null;
+            try
+            {
+                query = "INSERT INTO CARGO (DESCRICAO, STS_ATIVO) VALUES ('" +
+                        cargo.descricao + "', 1);";
+                return true;
+            }
+
+            catch (Exception ex)
+            {
+                return false;
+                throw ex;
+            }
+        }
+
+        public List<Cargo> buscaCargo()
+        {
+            query = null;
+            List<Cargo> lstCargo = new List<Cargo>();
+            try
+            {
+                query = "SELECT P.NOME, C.DESCRICAO FROM PESSOA AS P " +
+                        "INNER JOIN FUNCIONARIO AS F ON P.ID_PESSOA = F.ID_PESSOA " +
+                        "INNER JOIN CARGO ON F.ID_CARGO = C.ID_CARGO " +
+                        "WHERE F.STS_ATIVO = 1;";
+                lstCargo = setarObjetoCargo(banco.MetodoSelect(query));
+            }
+
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return lstCargo;
+        }
+
+        public bool alteraCargo(Cargo cargo)
+        {
+            query = null;
+            try
+            {
+                query = "UPDATE CARGO SET DESCRICAO = '" + cargo.descricao
+                        + "' WHERE ID_CARGO = " + cargo.id_cargo + ";";
+                return true;
+            }
+
+            catch (Exception ex)
+            {
+                return false;
+                throw ex;
+            }
+        }
+
+        public bool removeCargo(int id)
+        {
+            query = null;
+            try
+            {
+                query = "UPDATE CARGO SET STS_ATIVO = 0 WHERE ID_CARGO = " + id.ToString() + ";";
+                return true;
+            }
+
+            catch (Exception ex)
+            {
+                return false;
+                throw ex;
+            }
+        }
+
+        #endregion
 
         #endregion
 
         #region Métodos
 
-        public Pessoa setarObjeto(SqlDataReader dr)
+        public List<Funcionario> setarObjeto(SqlDataReader dr)
         {
-            Pessoa obj = new Pessoa();
+            List<Funcionario> lstFunc = new List<Funcionario>();
 
             try
             {
-                for (int idx = 0; idx < dr.FieldCount; idx++)
+                if (dr.HasRows)
                 {
-                    dr.GetName(idx).ToString();
-
-                    switch (dr.GetName(idx).ToUpper())
+                    while (dr.Read())
                     {
-                        case "ID_PESSOA":
-                            obj.id_pessoa = Convert.ToInt32(dr[idx]);
-                            break;
-                        case "NOME":
-                            obj.nome = Convert.ToString(dr[idx]);
-                            break;
-                        case "CPF":
-                            obj.cpf = Convert.ToString(dr[idx]);
-                            break;
-                        case "RG":
-                            obj.rg = Convert.ToString(dr[idx]);
-                            break;
-                        case "DT_NASC":
-                            obj.data_nasc = Convert.ToDateTime(dr[idx]);
-                            break;
+                        Cargo cargo = new Cargo();
+                        Funcionario obj = new Funcionario();
+                        obj.id_funcionario = Convert.ToInt32(dr["ID_FUNCIONARIO"].ToString());
+                        obj.cargo.id_cargo = Convert.ToInt32(dr["ID_CARGO"].ToString());
+                        
+                        lstFunc.Add(obj);
                     }
                 }
             }
@@ -88,7 +252,36 @@ namespace Model.DAO.Especifico
                 throw ex;
             }
 
-            return obj;
+            return lstFunc;
+        }
+
+        public List<Cargo> setarObjetoCargo(SqlDataReader dr)
+        {
+            List<Cargo> lstCargo = new List<Cargo>();
+
+            try
+            {
+                if (dr.HasRows)
+                {
+                    while (dr.Read())
+                    {
+                        Cargo obj = new Cargo();
+                        obj.id_cargo = Convert.ToInt32(dr["ID_CARGO"].ToString());
+                        obj.descricao = Convert.ToString(dr["DESCRICAO"].ToString());
+                        obj.ativo = Convert.ToInt32(dr["STS_ATIVO"].ToString());
+
+                        lstCargo.Add(obj);
+                    }
+                }
+            }
+
+            catch (Exception ex)
+            {
+                dr.Dispose();
+                throw ex;
+            }
+
+            return lstCargo;
         }
 
         #endregion

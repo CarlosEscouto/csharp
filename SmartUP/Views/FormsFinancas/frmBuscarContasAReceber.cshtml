@@ -86,28 +86,36 @@
 			<div class="row">
 				<div class="col s12 m12 l12 ">
 					<div style="padding: 0 22px; overflow: scroll;" class="table_form" >
-						<table class="striped">
+						<table class="striped datatable">
 							<thead>
 								<tr>
-									<th>Nome</th>
-									<th>Endereço</th>
-									<th>Blocos</th>
-									<th>Unidades</th>
-									<th>Data de inauguração</th>
-									<th>Proprietáario</th>
-									<th>CNPJ</th>
+									<th>Unidade</th>
+									<th>Data</th>
+									<th>Valor</th>
+									<th>Condominio</th>
+									<th>Observação</th>
 								</tr>
 							</thead>
+                            <tfoot>
+                                <tr>
+                                    <th>Unidade</th>
+                                    <th>Data</th>
+                                    <th>Valor</th>
+                                    <th>Condominio</th>
+                                    <th>Observação</th>
+                                </tr>
+                            </tfoot>
 							<tbody>
-								<tr>
-									<td>Bouna Vitta</td>
-									<td>Julio Buono</td>
-									<td>1</td>
-									<td>64</td>
-									<td>12/06/2001</td>
-									<td>ASK</td>
-									<td>27.948.894.00001</td>
-								</tr>
+                                @foreach (var cr in ViewBag.lstContaReceber)
+                                {
+                                    <tr>
+                                        <td>@cr.unidade</td>
+                                        <td>@cr.data</td>
+                                        <td>@cr.valor</td>
+                                        <td>@cr.condominio</td>
+                                        <td>@cr.observacao</td>
+                                    </tr>
+                                }
 							</tbody>
 						</table>
 					</div>

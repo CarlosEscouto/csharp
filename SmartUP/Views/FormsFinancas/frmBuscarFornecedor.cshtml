@@ -82,28 +82,36 @@
 			<div class="row">
 				<div class="col s12 m12 l12 ">
 					<div style="padding: 0 22px; overflow: scroll;" class="table_form" >
-						<table class="striped">
+						<table class="striped datatable">
 							<thead>
 								<tr>
-									<th>Nome</th>
-									<th>Endereço</th>
-									<th>Blocos</th>
-									<th>Unidades</th>
-									<th>Data de inauguração</th>
-									<th>Proprietáario</th>
+									<th>Nome da empresa</th>
+									<th>Ramo</th>
 									<th>CNPJ</th>
+									<th>Endereço</th>
+									<th>Telefone</th>
 								</tr>
 							</thead>
+                            <tfoot>
+                                <tr>
+                                    <th>Nome da empresa</th>
+                                    <th>Ramo</th>
+                                    <th>CNPJ</th>
+                                    <th>Endereço</th>
+                                    <th>Telefone</th>
+                                </tr>
+                            </tfoot>
 							<tbody>
-								<tr>
-									<td>Bouna Vitta</td>
-									<td>Julio Buono</td>
-									<td>1</td>
-									<td>64</td>
-									<td>12/06/2001</td>
-									<td>ASK</td>
-									<td>27.948.894.00001</td>
-								</tr>
+                                @foreach (var fornecedor in ViewBag.lstFornecedor)
+                                {
+                                    <tr>
+                                        <td>@fornecedor.nomeEmpresa</td>
+                                        <td>@fornecedor.ramo</td>
+                                        <td>@fornecedor.cnpj</td>
+                                        <td>@fornecedor.endereco</td>
+                                        <td>@fornecedor.telefone</td>
+                                    </tr>
+                                }
 							</tbody>
 						</table>
 					</div>

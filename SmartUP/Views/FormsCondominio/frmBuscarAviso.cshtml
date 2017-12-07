@@ -75,7 +75,7 @@
 							</div>
 						</form>
 						<div class="input-field col s5 m4 l3" style="top: -10px; position: relative;">
-							<a href="@Url.Action("frmBuscarAviso","FormsCondominio")" class="btn botao" >Novo</a>
+							<a href="@Url.Action("frmCadastrarAviso","FormsCondominio")" class="btn botao" >Novo</a>
 						</div>
 					</div>
 				</div>
@@ -83,28 +83,33 @@
 			<div class="row">
 				<div class="col s12 m12 l12 ">
 					<div style="padding: 0 22px; overflow: scroll;" class="table_form" >
-						<table class="striped">
+						<table class="striped datatable">
 							<thead>
 								<tr>
-									<th>Nome</th>
-									<th>Endereço</th>
-									<th>Blocos</th>
-									<th>Unidades</th>
-									<th>Data de inauguração</th>
-									<th>Proprietáario</th>
-									<th>CNPJ</th>
+									<th>Titulo</th>
+									<th>Descrição</th>
+									<th>Condominio</th>
+									<th>Data</th>
 								</tr>
 							</thead>
+                            <tfoot>
+                                <tr>
+                                    <th>Titulo</th>
+                                    <th>Descrição</th>
+                                    <th>Condominio</th>
+                                    <th>Data</th>
+                                </tr>
+                            </tfoot>
 							<tbody>
-								<tr>
-									<td>Bouna Vitta</td>
-									<td>Julio Buono</td>
-									<td>1</td>
-									<td>64</td>
-									<td>12/06/2001</td>
-									<td>ASK</td>
-									<td>27.948.894.00001</td>
-								</tr>
+                                @foreach (var aviso in ViewBag.lstAviso)
+                                {
+                                    <tr>
+                                        <td>@aviso.titulo</td>
+                                        <td>@aviso.descricao</td>
+                                        <td>@aviso.cond.nome</td>
+                                        <td>@aviso.data</td>
+                                    </tr>
+                                }
 							</tbody>
 						</table>
 					</div>

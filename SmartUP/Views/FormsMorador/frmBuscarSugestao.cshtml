@@ -83,29 +83,31 @@
 			<div class="row">
 				<div class="col s12 m12 l12 ">
 					<div style="padding: 0 22px; overflow: scroll;" class="table_form" >
-						<table class="striped">
-							<thead>
-								<tr>
-									<th>Nome</th>
-									<th>Endereço</th>
-									<th>Blocos</th>
-									<th>Unidades</th>
-									<th>Data de inauguração</th>
-									<th>Proprietáario</th>
-									<th>CNPJ</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Bouna Vitta</td>
-									<td>Julio Buono</td>
-									<td>1</td>
-									<td>64</td>
-									<td>12/06/2001</td>
-									<td>ASK</td>
-									<td>27.948.894.00001</td>
-								</tr>
-							</tbody>
+						<table class="striped datatable">
+                            <thead>
+                            <tr>
+                                <th>Titulo</th>
+                                <th>Autor</th>
+                                <th>data</th>
+                            </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>Titulo</th>
+                                    <th>Autor</th>
+                                    <th>data</th>
+                                </tr>
+                            </tfoot>
+                            <tbody>
+                                @foreach (var sugest in ViewBag.lstSugest)
+                                {
+                                    <tr>
+                                        <td>@sugest.titulo</td>
+                                        <td>@sugest.autor</td>
+                                        <td>@sugest.data</td>
+                                    </tr>
+                                }
+                            </tbody>
 						</table>
 					</div>
 				</div>

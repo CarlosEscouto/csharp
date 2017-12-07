@@ -44,28 +44,33 @@
 			<div class="row">
 				<div class="col s12 m12 l12 ">
 					<div style="padding: 0 22px; overflow: scroll;" class="table_form" >
-						<table class="striped">
+						<table class="striped datatable">
 							<thead>
 								<tr>
 									<th>Nome</th>
-									<th>Endereço</th>
-									<th>Blocos</th>
+									<th>Data inicial</th>
+									<th>Data final</th>
 									<th>Unidades</th>
-									<th>Data de inauguração</th>
-									<th>Proprietáario</th>
-									<th>CNPJ</th>
 								</tr>
 							</thead>
+                            <tfoot>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>Data inicial</th>
+                                    <th>Data final</th>
+                                    <th>Unidades</th>
+                                </tr>
+                            </tfoot>
 							<tbody>
-								<tr>
-									<td>Bouna Vitta</td>
-									<td>Julio Buono</td>
-									<td>1</td>
-									<td>64</td>
-									<td>12/06/2001</td>
-									<td>ASK</td>
-									<td>27.948.894.00001</td>
-								</tr>
+                                @foreach (var enquete in ViewBag.lstEnquete)
+                                {
+                                    <tr>
+                                        <td>@enquete.pergunta</td>
+                                        <td>@enquete.dtInicial</td>
+                                        <td>@enquete.dtFinal</td>
+                                        <td>@enquete.condominio</td>
+                                    </tr>
+                                }
 							</tbody>
 						</table>
 					</div>

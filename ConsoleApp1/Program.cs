@@ -18,33 +18,31 @@ namespace ConsoleApp1
             Fornecedor forn = new Fornecedor();
             Condominio cond = new Condominio
             {
-                id_cond = 1,
                 nome = "Reserva Tropical",
-                qtdBlocos = 4,
+                dataInauguracao = DateTime.Now,
                 proprietario = "Lello Imobiliaria",
                 cnpj = "00001441445",
             };
             Area ar = new Area
             {
+                id_area = 6,
                 nome = "Piscina",
-                descricao = "Banhar-se",
-                capacMax = 30,
-                seAluga = false,
+                descricao = "Piscina Infantil",
+                capacMax = 10,
+                seAluga = true,
                 ativo = true
             };
             Aviso av = new Aviso
             {
-                id_aviso = 1,
                 titulo = "Portão da garagem",
                 descricao = "O portão vai ficar destavidado nos dias 30/11 e 31/11",
                 cond = cond,
+                
             };
             Bloco bl = new Bloco
             {
                 id_bloco = 1,
                 nome = "Flamboyant",
-                qtAndares = 8,
-                qtApto = 64,
                 cond = cond,
             };
             ContaPagar cp = new ContaPagar
@@ -64,30 +62,25 @@ namespace ConsoleApp1
                 condominio = cond,
             };
 
-            AreaDAO areaDAO = new AreaDAO();
+            CondominioDAO objDAO = new CondominioDAO();
 
-            List<Area> listaArea = new List<Area>();
 
             /*CRIA*/
-            //areaDAO.cadastra(ar);
 
+            
+            List<Condominio> cd = objDAO.busca();
+            
+            //lstArea = objDAO.busca();
             /*ALTERA*/
             //areaDAO.altera(ar);
 
-            /*BUSCA*/
-            listaArea = areaDAO.busca();
-            foreach (Area area in listaArea)
+            /*BUSCA especifico*/
+            
+            foreach (Condominio obj in cd)
             {
-                Console.WriteLine(area.id_area + " " + area.nome + " " + area.capacMax.ToString() + " " + area.descricao + " " + area.seAluga.ToString());
+                Console.WriteLine(obj.id_cond + "\n" + obj.nome + "\n" + obj.qtdBlocos);
             }
-
-            Console.WriteLine(
-                //leTeste+"\n"
-                //"Condominio: "+cond.nome+"\n"+
-                //"Bloco: "+bl.nome+"\n"+
-                //"Unidade: "+uni.identificacao+"\n"
-                );
             Console.ReadKey();
-        }
+         }
     }
 }
